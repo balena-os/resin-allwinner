@@ -1,4 +1,28 @@
 - commits:
+    - subject: >-
+        Update the BSP layer to dunfell while keeping all the other layers on
+        warrior
+      hash: 0652d53cb1b37f743565fed7143297eb48b3a356
+      body: |
+        We update the BSP to dunfell while keeping all the other layers on
+        warrior since the BSP it's not too picky and compiles just fine in this
+        combination.
+
+        This will update the kernel to version 5.4.69
+      footer:
+        Changelog-entry: >-
+          Update the BSP layer to dunfell while keeping all the other layers on
+          warrior
+        changelog-entry: >-
+          Update the BSP layer to dunfell while keeping all the other layers on
+          warrior
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+      nested: []
+  version: 2.60.1+rev2
+  date: 2020-12-07T14:38:11.474Z
+- commits:
     - subject: Update meta-balena from v2.53.9 to v2.60.1
       hash: 7ffeb6a800c11bd35150512c13696e56cacfdaa2
       body: |
