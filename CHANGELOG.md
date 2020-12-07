@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.60.1+rev2
+## (2020-12-07)
+
+* Update the BSP layer to dunfell while keeping all the other layers on warrior [Florin Sarbu]
+
 # v2.60.1+rev1
 ## (2020-11-03)
 
